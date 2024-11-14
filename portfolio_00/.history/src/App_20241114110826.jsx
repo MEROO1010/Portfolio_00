@@ -1,9 +1,9 @@
 import React from "react";
 import styled from "styled-components";
-import Header from "./components/Header";
-import Portfolio from "./components/Portfolio";
-import Contact from "./components/Contact";
-import Footer from "./components/Footer";
+import Header from "./Header";
+import Portfolio from "./Portfolio";
+import Contact from "./Contact";
+import Footer from "./Footer";
 
 function LandingPage() {
   return (
