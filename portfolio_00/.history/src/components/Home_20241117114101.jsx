@@ -14,30 +14,27 @@ const Container = styled.div`
   align-items: center;
   justify-content: center;
   height: 100vh;
-  background-image: url(${BG});
+  background-image: {BG};
 `;
 
 const Title = styled.h1`
   font-size: 3em;
   font-weight: bold;
-  color: #3BB873;
-  margin-bottom: 20px;
-  margin-right:800px;
+  color: #000;
+  margin-bottom: 1em;
 `;
 
 const Subtitle = styled.h2`
   font-size: 2em;
   font-weight: normal;
   color: #000;
-  margin-bottom: 20px;
-  margin-right:800px;
+  margin-bottom: 2em;
 `;
 
 const SocialLinks = styled.div`
   display: flex;
   gap: 1em;
-  margin-bottom: 20px;
-  margin-right:800px;
+  margin-bottom: 2em;
 `;
 
 const SocialLink = styled.a`
@@ -46,16 +43,14 @@ const SocialLink = styled.a`
   justify-content: center;
   width: 3em;
   height: 3em;
-  
- 
- 
+  border-radius: 50%;
+  background-color: #fff;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
   color: #000;
   text-decoration: none;
 
   &:hover {
     background-color: #ddd;
-    border-radius: 50%;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
   }
 `;
 
@@ -67,8 +62,6 @@ const Button = styled.button`
   border-radius: 5px;
   font-size: 1em;
   cursor: pointer;
-  margin-bottom: 20px;
-  margin-right:800px;
 `;
 
 const App = () => {

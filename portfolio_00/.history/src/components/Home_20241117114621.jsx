@@ -28,7 +28,7 @@ const Title = styled.h1`
 const Subtitle = styled.h2`
   font-size: 2em;
   font-weight: normal;
-  color: #000;
+  color: #3BB873;
   margin-bottom: 20px;
   margin-right:800px;
 `;

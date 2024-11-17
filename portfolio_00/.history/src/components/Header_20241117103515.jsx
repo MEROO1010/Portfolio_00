@@ -4,21 +4,22 @@ import { Link } from 'react-router-dom';
 import ImageLogo from '../assets/white_logo.png';
 
 const HeaderContainer = styled.header`
-  background-color: #FFFEFD;
-  padding: 10px 100px;
+  background-color: #f5f5f5;
+  padding: 20px 0;
   display: flex;
   justify-content: space-between;
   align-items: center;
 `;
 
 const Logo = styled.h1`
-  margin:4px;
-  padding-left:40px;
+  logo{
+    size: 50px;
+  }
 `;
 
 const NavLinks = styled .nav`
   display: flex;
-  gap: 60px;
+  gap: 20px;
 `;
 
 const NavLink = styled(Link)`
@@ -27,7 +28,7 @@ const NavLink = styled(Link)`
   font-weight: 500;
 
   &:hover {
-    color: #3BB873;
+    color: #007bff;
   }
 `;
 

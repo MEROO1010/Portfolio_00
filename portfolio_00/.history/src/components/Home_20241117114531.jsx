@@ -20,7 +20,7 @@ const Container = styled.div`
 const Title = styled.h1`
   font-size: 3em;
   font-weight: bold;
-  color: #3BB873;
+  color: #000;
   margin-bottom: 20px;
   margin-right:800px;
 `;
@@ -67,8 +67,6 @@ const Button = styled.button`
   border-radius: 5px;
   font-size: 1em;
   cursor: pointer;
-  margin-bottom: 20px;
-  margin-right:800px;
 `;
 
 const App = () => {

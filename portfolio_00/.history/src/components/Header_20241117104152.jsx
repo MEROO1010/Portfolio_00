@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom';
 import ImageLogo from '../assets/white_logo.png';
 
 const HeaderContainer = styled.header`
-  background-color: #FFFEFD;
+  background-color: #f5f5f5;
   padding: 10px 100px;
   display: flex;
   justify-content: space-between;
@@ -18,7 +18,7 @@ const Logo = styled.h1`
 
 const NavLinks = styled .nav`
   display: flex;
-  gap: 60px;
+  gap: 24px;
 `;
 
 const NavLink = styled(Link)`
