@@ -30,7 +30,7 @@ const Subtitle = styled.h2`
 const SocialLinks = styled.div`
   display: flex;
   gap: 1em;
-  margin-bottom: 20px;
+  margin-bottom: 80px;
   margin-right:800px;
 `;
 const SocialLink = styled.a`
@@ -58,7 +58,7 @@ const Button = styled.button`
   border-radius: 5px;
   font-size: 1em;
   cursor: pointer;
-  margin-bottom: 100px;
+  margin-bottom: 20px;
   margin-right:800px;
 `;
 const Home = () => {

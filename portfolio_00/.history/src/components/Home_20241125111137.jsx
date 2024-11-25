@@ -17,14 +17,14 @@ const Title = styled.h1`
   font-size: 3em;
   font-weight: bold;
   color: #3BB873;
-  margin-bottom: 20px;
+  margin-bottom: 40px;
   margin-right:800px;
 `;
 const Subtitle = styled.h2`
   font-size: 2em;
   font-weight: normal;
   color: #000;
-  margin-bottom: 20px;
+  margin-bottom: 10px;
   margin-right:800px;
 `;
 const SocialLinks = styled.div`
@@ -58,7 +58,7 @@ const Button = styled.button`
   border-radius: 5px;
   font-size: 1em;
   cursor: pointer;
-  margin-bottom: 100px;
+  margin-bottom: 20px;
   margin-right:800px;
 `;
 const Home = () => {

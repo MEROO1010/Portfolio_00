@@ -51,14 +51,14 @@ const SocialLink = styled.a`
   }
 `;
 const Button = styled.button`
-  background-color: #3BB873;
+  background-color: #000;
   color: #fff;
   padding: 1em 2em;
   border: none;
   border-radius: 5px;
   font-size: 1em;
   cursor: pointer;
-  margin-bottom: 100px;
+  margin-bottom: 20px;
   margin-right:800px;
 `;
 const Home = () => {

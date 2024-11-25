@@ -124,13 +124,7 @@ const Contact = () => {
         <Button type="submit">Send</Button>
       </form>
       <Footer>
-        <FooterText>© 2023 All rights reserved</FooterText>
-        <SocialIcons>
-          <a href="https://www.behance.net/merooalsaggaf#"><img src={Behance} alt=""/></a>
-          <a href="https://github.com/MEROO1010"><img src={Github} alt=""/></a>
-          <a href="https://x.com/meroo_alsaggaf"><img src={X} alt=""/></a>
-          <a href="https://www.linkedin.com/in/marwah-alsaggaf-ba44011b2/"><img src={LinkedIn} alt=""/></a>
-        </SocialIcons>
+      
       </Footer>
     </Container>
   );

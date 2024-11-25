@@ -21,14 +21,15 @@ export const Header = styled.h1`
 `;
 
 export const GridContainer = styled.div`
-  width: 1900;
-   height: 862;
-   position: 'relative';
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 20px;
+  margin-top: 20px;
 `;
 
 export const PortfolioItem = styled.div`
   background-color: #f9f9f9;
-  
+  padding: 10px;
   border-radius: 8px;
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
   text-align: center;
@@ -48,22 +49,22 @@ export const Image = styled.img`
 const Portfolio = () => {
   return (
     <PortfolioContainer>
-      <Header>Our Regular Updated <span><br/>Portfolio.</span></Header>
-      <GridContainer style={{width: 1802, height: 900, position: 'relative'}}>
+      <Header>Our Regular Updated <span>Portfolio.</span></Header>
+      <GridContainer>
         <PortfolioItem>
-          <Image src={Mug} alt="Mug Design" height={200} style={{width: 708, height: 850, left: 40, top: 0, position: 'absolute'}}/>
+          <Image src={Mug} alt="Mug Design" height={200} />
         </PortfolioItem>
         <PortfolioItem>
-          <Image src={App_design} style={{width: 482.12, height: 406.70, left: 1319.88, top: 4, position: 'absolute'}} alt="Mobile App Mockup" />
+          <Image src={App_design} alt="Mobile App Mockup" />
         </PortfolioItem>
         <PortfolioItem>
-          <Image src={Tea} style={{width: 482.12, height: 406.70, left: 789.31, top: 4, position: 'absolute'}} alt="Tea Package" />
+          <Image src={Tea} alt="Tea Package" />
         </PortfolioItem>
         <PortfolioItem>
-          <Image src={Card_design} style={{width: 482.12, height: 404.14, left: 1319.88, top: 440, position: 'absolute'}}alt="Kidzy Logo" />
+          <Image src={Card_design} alt="Kidzy Logo" />
         </PortfolioItem>
         <PortfolioItem>
-          <Image src={Burger_ads}style={{width: 482.12, height: 404.14, left: 789.31, top: 440, position: 'absolute'}} alt="Burger Ad" />
+          <Image src={Burger_ads} alt="Burger Ad" />
         </PortfolioItem>
       </GridContainer>
     </PortfolioContainer>

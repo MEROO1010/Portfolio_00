@@ -58,7 +58,7 @@ const Button = styled.button`
   border-radius: 5px;
   font-size: 1em;
   cursor: pointer;
-  margin-bottom: 100px;
+  margin-bottom: 20px;
   margin-right:800px;
 `;
 const Home = () => {

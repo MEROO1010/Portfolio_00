@@ -49,9 +49,9 @@ const Portfolio = () => {
   return (
     <PortfolioContainer>
       <Header>Our Regular Updated <span><br/>Portfolio.</span></Header>
-      <GridContainer style={{width: 1802, height: 900, position: 'relative'}}>
+      <GridContainer style={{width: 1802, height: 860, position: 'relative'}}>
         <PortfolioItem>
-          <Image src={Mug} alt="Mug Design" height={200} style={{width: 708, height: 850, left: 40, top: 0, position: 'absolute'}}/>
+          <Image src={Mug} alt="Mug Design" height={200} style={{width: 708, height: 862, left: 40, top: 0, position: 'absolute'}}/>
         </PortfolioItem>
         <PortfolioItem>
           <Image src={App_design} style={{width: 482.12, height: 406.70, left: 1319.88, top: 4, position: 'absolute'}} alt="Mobile App Mockup" />
