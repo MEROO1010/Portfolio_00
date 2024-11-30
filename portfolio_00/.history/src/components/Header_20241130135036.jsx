@@ -15,8 +15,7 @@ const headerStyle = {
   display: 'flex',
   alignItems: 'center',
   justifyContent: 'space-between',
-  padding: '15px 80px',
-  fontSize:'20px',
+  padding: '20px 80px',
 };
 
 const logoStyle = {

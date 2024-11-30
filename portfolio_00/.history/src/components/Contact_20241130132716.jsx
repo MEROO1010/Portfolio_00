@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import styled from 'styled-components';
+import axios from 'axios'; // For backend integration
 import Behance from "../assets/Behance.png";
 import Github from "../assets/GitHub.png";
 import X from "../assets/X.png";
@@ -8,7 +9,7 @@ import ImageLogo from '../assets/white_logo.png';
 import ContactBG from '../assets/contactBG.png';
 
 
-const ContactContainer = styled.div`
+export const ContactContainer = styled.div`
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -20,7 +21,7 @@ const ContactContainer = styled.div`
   
 `;
 
-const ContactTitle = styled.h1`
+export const ContactTitle = styled.h1`
   font-size: 2rem;
   color: #333;
   position: relative;
@@ -30,7 +31,7 @@ const ContactTitle = styled.h1`
   }
 `;
 
-const Form = styled.form`
+export const Form = styled.form`
   display: flex;
   flex-direction: column;
   gap: 15px;
@@ -40,7 +41,7 @@ const Form = styled.form`
   margin-top:40px;
 `;
 
-const Input = styled.input`
+export const Input = styled.input`
   padding: 14px;
   border: 1px solid #DEDEDE;
   border-radius: 25px;
@@ -55,7 +56,7 @@ const Input = styled.input`
   }
 `;
 
-const Textarea = styled.textarea`
+export const Textarea = styled.textarea`
   padding: 15px;
   border: 1px solid #DEDEDE;
   border-radius: 25px;
@@ -72,7 +73,7 @@ const Textarea = styled.textarea`
   }
 `;
 
-const Button = styled.button`
+export const Button = styled.button`
   padding: 10px 20px;
   background-color: #28a745;
   color: #fff;
@@ -90,33 +91,33 @@ const Button = styled.button`
   }
 `;
 
-const StatusMessage = styled.div`
+export const StatusMessage = styled.div`
   margin-top: 10px;
   font-size: 0.9rem;
   color: #333;
 `;
 
-const Footer = styled.footer`
+export const Footer = styled.footer`
   margin-top: 20px;
   text-align: center;
   position: relative;
   margin-top:150px;
 `;
 
-const Logo = styled.div`
+export const Logo = styled.div`
   font-size: 2rem;
   font-weight: bold;
   margin-bottom: 10px;
 `;
 
-const SocialIcons = styled.div`
+export const SocialIcons = styled.div`
   display: flex;
   justify-content: center;
   gap: 10px;
   margin-bottom: 10px;
 `;
 
-const Icon = styled.a`
+export const Icon = styled.a`
   font-size: 1.5rem;
   color: #333;
   text-decoration: none;
@@ -126,7 +127,7 @@ const Icon = styled.a`
   }
 `;
 
-const Copyright = styled.p`
+export const Copyright = styled.p`
   font-size: 0.8rem;
   color: #666;
 `;

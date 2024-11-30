@@ -15,8 +15,7 @@ const headerStyle = {
   display: 'flex',
   alignItems: 'center',
   justifyContent: 'space-between',
-  padding: '15px 80px',
-  fontSize:'20px',
+  padding: '10px 20px',
 };
 
 const logoStyle = {
@@ -37,18 +36,12 @@ const linkStyle = {
   margin: '0 15px',
 };
 
-const Logo = styled.div`
-  font-size: 1.5rem;
-  font-weight: bold;
-  color: #00b894;
-`;
-
 export default function Header() {
   return (
     <Router>
     <header style={headerStyle}>
       <div className="logo" style={logoStyle}>
-      <Logo><img src={ImageLogo} alt="Description of image" /></Logo>
+        <span>M</span>
       </div>
       <nav>
         <ul style={navListStyle}>

@@ -4,19 +4,18 @@ import ImageLogo from '../assets/white_logo.png';
 import { BrowserRouter as Router, Routes, Route, Link } from 'react-router-dom';
 
 // Import your pages
-import Home from '../components/Home';
-import AboutMe from '../components/About';
-import Services from '../components/Services';
-import Portfolio from '../components/Portfolio';
-import Contact from '../components/Contact';
+import Home from './pages/Home';
+import AboutMe from './pages/AboutMe';
+import Services from './pages/Services';
+import Portfolio from './pages/Portfolio';
+import Contact from './pages/Contact';
 
 // Styles for the header
 const headerStyle = {
   display: 'flex',
   alignItems: 'center',
   justifyContent: 'space-between',
-  padding: '15px 80px',
-  fontSize:'20px',
+  padding: '10px 20px',
 };
 
 const logoStyle = {
@@ -37,18 +36,12 @@ const linkStyle = {
   margin: '0 15px',
 };
 
-const Logo = styled.div`
-  font-size: 1.5rem;
-  font-weight: bold;
-  color: #00b894;
-`;
-
 export default function Header() {
   return (
     <Router>
     <header style={headerStyle}>
       <div className="logo" style={logoStyle}>
-      <Logo><img src={ImageLogo} alt="Description of image" /></Logo>
+        <span>M</span>
       </div>
       <nav>
         <ul style={navListStyle}>
